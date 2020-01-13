@@ -17,3 +17,5 @@ npm run build   # for build. creating folder "build"
 ## HTML Templates 
 
 > Render [Pug](https://pugjs.org/api/getting-started.html) templates
+<!-- ################################################################## -->
+<!-- npm i swiper -->
