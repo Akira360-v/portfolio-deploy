@@ -11,6 +11,10 @@ head
   link(rel='stylesheet' href='css/vendors.css?' + hash)
   link(rel='stylesheet' href='css/app.css?' + hash)
 body
-  include header/header
+  header
+    .container
+      include ../../blocks/header__menu/header__menu
+      include ../../layout/projects/projects
+
   script(src='js/vendors.js?' + hash)
   script(src='js/app.js?' + hash)
