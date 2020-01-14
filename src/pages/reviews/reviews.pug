@@ -11,6 +11,23 @@ head
   link(rel='stylesheet' href='css/vendors.css?' + hash)
   link(rel='stylesheet' href='css/app.css?' + hash)
 body
-  include header/header
+  header
+    .container
+      .header__menu
+        .logo
+          figure
+            img(src="images/header__menu/logo-1.png", alt="logo")
+        ul.logo__menu.navmenu
+          li.active
+            a.logo__li(href="index.html" ) Главная
+          li
+            a.logo__li(href="projects.html") Проекты
+          li
+            a.logo__li(href="about.html") Обо мне
+          li
+            a.logo__li.logo__li_active(href="reviews.html") Отзывы
+          li
+            a.logo__li(href="contacts.html") Контакты
+      
   script(src='js/vendors.js?' + hash)
   script(src='js/app.js?' + hash)
